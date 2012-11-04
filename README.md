@@ -1,14 +1,12 @@
-Python + Bottle + SQLAlchemy web app template
+Pipeman - A Python web ui process executor
 =============================================
+This tool provides a way to execute several tasks (even rm -rf) using a web ui.
+Multiple tasks can be added and executed / restarted, a console output is shown.
+This is a very buggy implementation so far, improvements coming soon.
 
-A template for python + bottle + sqlalchemy web application.
-Additionally packed with Javascript libraries and some extra goodies.
+Requirements coming soon to.
 
-Includes users table, and basic CRUD operations to start with an administration area.
-
-Modular templating structure (RoR/ERB-like) using Bottle's Simpletemplate engine.
-
-Constant improvements added.
-
-Note:
-I've packed JS libraries for eventual offline development so consider loading all from CDNs to get the latest versions.
+Known bugs:
+- Not displaying current task status
+- Console logging keeps scrolling down all the time
+- running proceses trace are lost when another action is invoked or the page refreshed.
